@@ -1,0 +1,21 @@
+{
+    "dev": true,
+    "database": {
+        "mysql": [{
+            "master":{
+                "host": "",
+                "port": 3306,
+                "user": "",
+                "password": "",
+                "database": ""
+            },
+            "slaves": [{
+                "host": "0.0.0.0",
+                "port": 3306,
+                "user": "",
+                "password": "",
+                "database": ""
+            }]
+        }]
+    }
+}

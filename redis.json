@@ -1,0 +1,17 @@
+{
+    "dev": true,
+    "database": {
+        "redis": [{
+            "master":{
+                "host": "127.0.0.1",
+                "port": 6379,
+                "pass": ""
+            },
+            "slaves": [{
+                "host": "",
+                "port": 6379,
+                "pass": ""
+            }]
+        }]
+    }
+}

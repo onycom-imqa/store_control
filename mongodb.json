@@ -1,0 +1,11 @@
+{
+   "dev": true,
+   "database": {
+      "mongo": [{
+         "master": {
+            "url": "mongodb_url"
+         }
+      }]
+   }
+}
+
